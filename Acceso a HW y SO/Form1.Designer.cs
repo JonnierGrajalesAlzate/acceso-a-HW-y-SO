@@ -54,6 +54,7 @@
             this.btnSeri.TabIndex = 0;
             this.btnSeri.Text = "LEER #SERI";
             this.btnSeri.UseVisualStyleBackColor = true;
+            this.btnSeri.Click += new System.EventHandler(this.btnSeri_Click);
             // 
             // btnCantidadUnidades
             // 
@@ -63,6 +64,7 @@
             this.btnCantidadUnidades.TabIndex = 1;
             this.btnCantidadUnidades.Text = "CANTIDAD DE UNIDADES";
             this.btnCantidadUnidades.UseVisualStyleBackColor = true;
+            this.btnCantidadUnidades.Click += new System.EventHandler(this.btnCantidadUnidades_Click);
             // 
             // btnInventarioGeneral
             // 
@@ -72,6 +74,7 @@
             this.btnInventarioGeneral.TabIndex = 2;
             this.btnInventarioGeneral.Text = "INVENTARIO GENERAL";
             this.btnInventarioGeneral.UseVisualStyleBackColor = true;
+            this.btnInventarioGeneral.Click += new System.EventHandler(this.btnInventarioGeneral_Click);
             // 
             // lblSeri
             // 
@@ -113,14 +116,15 @@
             this.btnObtenerMac.TabIndex = 6;
             this.btnObtenerMac.Text = "OBTENER MAC";
             this.btnObtenerMac.UseVisualStyleBackColor = true;
+            this.btnObtenerMac.Click += new System.EventHandler(this.btnObtenerMac_Click);
             // 
             // lblRegistro
             // 
-            this.lblRegistro.Location = new System.Drawing.Point(290, 148);
+            this.lblRegistro.Location = new System.Drawing.Point(271, 148);
             this.lblRegistro.Name = "lblRegistro";
             this.lblRegistro.Size = new System.Drawing.Size(121, 17);
             this.lblRegistro.TabIndex = 9;
-            this.lblRegistro.Text = "CRUD clave";
+            this.lblRegistro.Text = "Editor De Registro";
             // 
             // btnRegistro
             // 
@@ -130,6 +134,7 @@
             this.btnRegistro.TabIndex = 8;
             this.btnRegistro.Text = "REGISTRO";
             this.btnRegistro.UseVisualStyleBackColor = true;
+            this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
             // 
             // btnProcesosActivos
             // 
@@ -137,8 +142,9 @@
             this.btnProcesosActivos.Name = "btnProcesosActivos";
             this.btnProcesosActivos.Size = new System.Drawing.Size(138, 23);
             this.btnProcesosActivos.TabIndex = 10;
-            this.btnProcesosActivos.Text = "PROCESOS ACTIVOS";
+            this.btnProcesosActivos.Text = "OBTENER PROCESOS";
             this.btnProcesosActivos.UseVisualStyleBackColor = true;
+            this.btnProcesosActivos.Click += new System.EventHandler(this.btnProcesosActivos_Click);
             // 
             // btnMatarProcesos
             // 
@@ -148,6 +154,7 @@
             this.btnMatarProcesos.TabIndex = 11;
             this.btnMatarProcesos.Text = "MATAR PROCESOS";
             this.btnMatarProcesos.UseVisualStyleBackColor = true;
+            this.btnMatarProcesos.Click += new System.EventHandler(this.btnMatarProcesos_Click);
             // 
             // gbCaja
             // 

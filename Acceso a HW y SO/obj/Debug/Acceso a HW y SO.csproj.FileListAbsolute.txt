@@ -1,0 +1,13 @@
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\obj\Debug\Acceso a HW y SO.csproj.AssemblyReference.cache
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\obj\Debug\Acceso_a_HW_y_SO.Form1.resources
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\obj\Debug\Acceso_a_HW_y_SO.Properties.Resources.resources
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\obj\Debug\Acceso a HW y SO.csproj.GenerateResource.cache
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\obj\Debug\Acceso a HW y SO.csproj.CoreCompileInputs.cache
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\bin\Debug\Acceso a HW y SO.exe.config
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\bin\Debug\Acceso a HW y SO.exe
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\bin\Debug\Acceso a HW y SO.pdb
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\obj\Debug\Acceso a HW y SO.exe
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\obj\Debug\Acceso a HW y SO.pdb
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\bin\Debug\jonnig.dll
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\bin\Debug\jonnig.pdb
+C:\Users\57304\Desktop\access WH y SO\Acceso a HW y SO\obj\Debug\Acceso a.EC89DF8F.Up2Date
