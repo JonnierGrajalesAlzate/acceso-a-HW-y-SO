@@ -56,8 +56,42 @@ namespace Acceso_a_HW_y_SO
 
         private void btnMatarProcesos_Click(object sender, EventArgs e)
         {
-            string lcMatarProceso = jonnig.Class1.MatarProceso();
-            MessageBox.Show(lcMatarProceso);
+            if (MessageBox.Show("¿Estás seguro de que deseas matar todos los procesos?", "Confirmación", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                foreach (DataGridViewRow row in dgvCuadricula.Rows)
+                {
+                    try
+                    {
+                        if (row.Cells["ProcessID"].Value != null)
+                        {
+                            int nIdProceso = Convert.ToInt32(row.Cells["ProcessID"].Value);
+                            Process proceso = Process.GetProcessById(nIdProceso);
+
+                            if (proceso != null && !proceso.HasExited)
+                            {
+                                proceso.Kill();
+                            }
+                        }
+                    }
+                    catch (ArgumentException)
+                    {
+                        MessageBox.Show($"Error: El proceso con ID {row.Cells["ProcessID"].Value} no existe.");
+                    }
+                    catch (InvalidOperationException)
+                    {
+                        MessageBox.Show($"Error: El proceso con ID {row.Cells["ProcessID"].Value} ya ha sido cerrado.");
+                    }
+                    catch (System.ComponentModel.Win32Exception)
+                    {
+                        MessageBox.Show($"Error: No tienes permiso para matar el proceso con ID {row.Cells["ProcessID"].Value}.");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al matar el proceso con ID {row.Cells["ProcessID"].Value}: {ex.Message}");
+                    }
+                } 
+                jonnig.Class1.MostrarProcesosActivos(dgvCuadricula);
+            }
         } 
         private void btnRegistro_Click(object sender, EventArgs e)
         {
